@@ -1,0 +1,90 @@
+---
+import { basics } from "@cv";
+import Modal from "@/components/Modal/Modal.astro";
+import XTwitter from "@/icons/XTwitter.astro";
+import Github from "@/icons/Github.astro";
+import LinkedIn from "@/icons/LinkedIn.astro";
+import Whatsapp from "@/icons/Whatsapp.astro";
+
+const { profiles, name, github } = basics;
+
+const year = new Date().getFullYear();
+---
+
+<div class="footer-container">
+  <footer class="rounded-lg shadow bg-slate-700/50">
+    <div
+      class="w-full flex flex-col gap-y-4 mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between"
+    >
+      <section>
+        <ul>
+          {
+            profiles &&
+              profiles.map((profile) => (
+                <li>
+                  {profile.network === "X" ? (
+                    <a href={profile.url}>
+                      <XTwitter />
+                    </a>
+                  ) : profile.network === "GitHub" ? (
+                    <a href={profile.url}>
+                      <Github />
+                    </a>
+                  ) : profile.network === "LinkedIn" ? (
+                    <a href={profile.url}>
+                      <LinkedIn />
+                    </a>
+                  ) : (
+                    <a href={profile.url}>
+                      <Whatsapp />
+                    </a>
+                  )}
+                </li>
+              ))
+          }
+        </ul>
+      </section>
+
+      <span
+        class="w-full flex flex-row items-center flex-nowrap justify-center gap-2 text-sm text-slate-400"
+      >
+        <p>
+          &copy; {year}
+          <a href={github}>
+            {name}.
+          </a>
+        </p>
+        <p>-</p>
+        <Modal />
+      </span>
+    </div>
+  </footer>
+</div>
+
+<style>
+  .footer-container {
+    @apply w-full mx-auto container lg:max-w-4xl md:max-w-2xl select-none;
+  }
+
+  section {
+    @apply w-full flex items-center justify-center relative;
+
+    & ul {
+      @apply w-full md:w-1/4 flex flex-wrap items-center justify-center gap-3 text-sm font-medium text-slate-400;
+    }
+
+    &::after {
+      content: "";
+      @apply absolute left-0 w-1/4 md:w-2/5 h-[1px] bg-slate-500;
+    }
+
+    &::before {
+      content: "";
+      @apply absolute right-0 w-1/4 md:w-2/5 h-[1px] bg-slate-500;
+    }
+  }
+
+  a {
+    @apply duration-200 hover:text-slate-200;
+  }
+</style>

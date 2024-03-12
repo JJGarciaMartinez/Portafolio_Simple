@@ -1,0 +1,148 @@
+---
+import Code from "@/icons/Code.astro";
+import Github from "@/icons/Github.astro";
+import Link from "@/icons/Link.astro";
+import { projects } from "@cv";
+import { Image } from "astro:assets";
+---
+
+<div id="proyectos" class="projects-container">
+  <h1>
+    <Code />
+    Proyectos
+  </h1>
+
+  <div class="project-card-container">
+    <ul class="projects-list">
+      {
+        projects.map(
+          ({ name, description, image, url, technologies, github }) => (
+            <li class="project-card">
+              <section class="card-body flex flex-col">
+                <figure class="w-full rounded-lg overflow-hidden">
+                  <Image
+                    src={image}
+                    alt={name}
+                    width={700}
+                    height={700}
+                    loading="lazy"
+                    class="w-full h-full duration-200"
+                  />
+                </figure>
+              </section>
+
+              <section class="card-info">
+                <h2 class="text-lg font-bold mb-1 uppercase lg:text-xl">
+                  {name}
+                </h2>
+                <p class="text-xs text-slate-300 lg:text-sm">{description}</p>
+
+                <ul class="flex flex-row flex-wrap gap-2">
+                  {technologies.map(({ name, logo, color }) => (
+                    <li
+                      style={{
+                        backgroundColor: `rgba(${color},0.3)`,
+                        borderWidth: "1px",
+                        borderColor: `rgb(${color})`,
+                      }}
+                      class="flex flex-row gap-1 items-center px-2 py-[2px] rounded-full !w-auto relative"
+                    >
+                      <figure class="w-4 h-4" id="technology">
+                        <Image
+                          src={logo}
+                          alt={name}
+                          width={20}
+                          height={20}
+                          loading="lazy"
+                          class="w-full h-full"
+                        />
+                      </figure>
+                    </li>
+                  ))}
+                </ul>
+
+                <span class="card-links">
+                  <a href={github} target="_blank">
+                    <figure>
+                      <Github />
+                    </figure>
+                    <p>Repositorio</p>
+                  </a>
+
+                  {url ? (
+                    <a href={url} target="_blank">
+                      <figure>
+                        <Link />
+                      </figure>
+                      <p>Visitar</p>
+                    </a>
+                  ) : null}
+                </span>
+              </section>
+            </li>
+          )
+        )
+      }
+    </ul>
+  </div>
+</div>
+
+<style>
+  h1 {
+    @apply text-2xl md:text-3xl font-bold mb-10 flex flex-row gap-3 items-center;
+  }
+  .projects-container {
+    @apply pb-16 md:pb-36 w-full mx-auto container lg:max-w-4xl md:max-w-2xl select-none relative;
+
+    .project-card-container {
+      @apply relative;
+
+      /* first ul */
+      .projects-list {
+        @apply grid-flow-row grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10;
+
+        /* first li */
+        .project-card {
+          @apply relative flex flex-col bg-[rgba(12,31,52)] rounded-3xl border-2 border-slate-700 overflow-hidden;
+
+          .card-info {
+            @apply absolute py-4 px-6 lg:py-6 lg:px-4 flex flex-col justify-between bg-black/75 backdrop-blur-sm rounded-lg w-full h-full opacity-0 duration-200;
+
+            /* Repository and Visit Links */
+            .card-links {
+              @apply flex flex-row items-center gap-6;
+
+              & a {
+                @apply flex flex-row items-center gap-2 bg-slate-800/60 border border-slate-700 rounded-lg px-2 py-1 md:px-3 duration-200;
+
+                &:hover {
+                  @apply bg-slate-700/60 text-sky-100;
+                }
+
+                & figure {
+                  @apply w-3 h-3 md:w-5 md:h-5 flex items-center justify-center;
+                }
+
+                & p {
+                  @apply text-xs md:text-sm;
+                }
+              }
+            }
+          }
+
+          &:hover {
+            .card-info {
+              @apply opacity-100;
+            }
+
+            .card-body {
+              & figure img {
+                @apply scale-105;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+</style>

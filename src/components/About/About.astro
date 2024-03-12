@@ -1,0 +1,111 @@
+---
+import User from "@/icons/User.astro";
+import Download from "@/icons/Download.astro";
+import { Image } from "astro:assets";
+import { basics } from "@cv";
+import Icon from "@/icons/Icon.astro";
+
+const { image } = basics;
+---
+
+<div id="sobre-mi" class="about-container">
+  <h1>
+    <User />
+    Sobre mí
+  </h1>
+
+  <article
+    class="flex flex-col-reverse items-center md:flex-row gap-10 md:gap-5 lg:gap-10"
+  >
+    <p class="md:w-3/4 lg:w-auto md:text-sm lg:text-base text-slate-100">
+      ¡Hola! Soy Juan García, un apasionado del desarrollo web y la tecnología
+      desde 2017. Recientemente me gradué como
+      <code class="text-sky-200"> Full Stack Web Developer en Soy Henry,</code>
+      lo que ha fortalecido mis habilidades.
+      <br />
+      <br />
+      Actualmente,
+      <code class="text-sky-200">
+        estoy en búsqueda de mi primera oportunidad como desarrollador web Front
+        End.
+      </code>
+      Aunque tengo conocimientos básicos en diseño web, estoy decidido a especializarme
+      para mejorar mi desempeño en esta área.
+      <br />
+      <br />
+      Me caracterizo por ser
+      <code class="text-sky-200">
+        responsable, proactivo y con una gran capacidad de aprendizaje.
+      </code>
+      Estoy emocionado por seguir desarrollando mis habilidades y contribuir al mundo
+      del desarrollo web.
+    </p>
+
+    <figure
+      class="w-2/4 h-3/4 md:w-2/3 p-2 bg-slate-800/70 border border-slate-700 rounded-2xl"
+    >
+      <Image
+        src={image}
+        alt="About"
+        width={500}
+        height={500}
+        loading="lazy"
+        class="w-full h-full object-cover rounded-xl"
+      />
+    </figure>
+  </article>
+  <a
+    href="/files/Juan_Garcia.pdf"
+    download="Juan_Garcia.pdf"
+    class="overflow-hidden !mt-10 relative flex items-center justify-center bg-slate-700/30 border border-slate-700 rounded-lg px-4 py-2 w-full md:w-fit duration-200 hover:text-sky-100 hover:bg-slate-700/60"
+  >
+    <p class="download-text duration-200">Descargar CV</p>
+
+    <figure class="absolute w-6 h-6 -translate-y-10 duration-200">
+      <Download class="w-full h-full" />
+    </figure>
+  </a>
+  <!-- <div style="background-color: rgb(4, 22, 53);" class="css-rozv0a">
+    <figure class="w-1/2 h-auto">
+      <Icon />
+    </figure>
+  </div> -->
+
+  <style>
+    .css-rozv0a {
+      display: flex;
+      width: 200px;
+      height: 200px;
+      position: absolute;
+      left: calc(50% - 100px);
+      top: calc(50% - 100px);
+      z-index: 1;
+      -webkit-box-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      align-items: center;
+      border-radius: 50px;
+    }
+
+    h1 {
+      @apply text-2xl md:text-3xl font-bold mb-10 flex flex-row gap-3 items-center;
+    }
+    .about-container {
+      @apply pb-16 md:pb-36 w-full flex flex-col mx-auto container lg:max-w-4xl md:max-w-2xl select-none;
+    }
+
+    a {
+      @apply shadow-slate-400/50 shadow;
+    }
+
+    a:hover {
+      .download-text {
+        @apply opacity-0;
+      }
+
+      & figure {
+        @apply translate-y-0;
+      }
+    }
+  </style>
+</div>

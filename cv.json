@@ -1,0 +1,386 @@
+{
+  "basics": {
+    "name": "Juan García",
+    "label": "Egresado del bootcamp de SoyHenry y Desarrollador Web Full Stack Junior de México en busca de mi primera oportunidad laboral. 5 años de estudio en el sector.",
+    "image": "https://as1.ftcdn.net/v2/jpg/03/46/83/96/1000_F_346839683_6nAPzbhpSkIpb8pmAwufkC7c5eD7wYws.jpg",
+    "email": "juanjgarcia230@gmail.com",
+    "github": "https://github.com/JJGarciaMartinez",
+    "phone": "(+52) 56 1373 1029",
+    "avaliable": true,
+    "summary": "Con una dedicación de 5 años al estudio del desarrollo web, me encuentro actualmente en busca de mi primera oportunidad laboral en este apasionante campo. Resido en el Estado de México, México, y durante los últimos dos años he enfocado mis esfuerzos en especializarme en el desarrollo web. Me considero una persona responsable, proactiva, con una gran capacidad de aprendizaje y una motivación inquebrantable por crecer en esta industria.",
+    "location": {
+      "address": "",
+      "postalCode": "56020",
+      "city": "Estado de México, México",
+      "countryCode": "MX",
+      "region": "México"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Juan García",
+        "url": "https://www.linkedin.com/in/juanjgarcia23"
+      },
+      {
+        "network": "X",
+        "username": "@JuanGMc23",
+        "url": "https://twitter.com/JuanGMc23"
+      },
+      {
+        "network": "GitHub",
+        "username": "JJGarciaMartinez",
+        "url": "https://github.com/JJGarciaMartinez"
+      },
+      {
+        "network": "WhatsApp",
+        "username": "Whatsapp",
+        "url": "https://wa.me/5613731029"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Muy Pronto más...",
+      "startDate": null,
+      "endDate": null
+    },
+    {
+      "name": "Kimey Petshop",
+      "company": "Soy Henry",
+      "position": "Divulgador sobre Programación Web",
+      "url": "https://pet-shop-kimeipetshop.vercel.app/",
+      "startDate": "2023-11-27",
+      "endDate": "2024-01-18",
+      "summary": "Participé como desarrollador de Front End en el proyecto de Kimey Petshop, una tienda dedicada a ofrecer accesorios y alimentos para distintas mascotas. En colaboración con un equipo de tres desarrolladores adicionales, me encargué del diseño y desarrollo completo de la interfaz de usuario de la plataforma.",
+      "type": "Proyecto"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universitat Oberta de Catalunya",
+      "url": "https://www.uoc.edu/portal/es/index.html",
+      "area": "Ingeniero de Software",
+      "studyType": "Bachelor",
+      "startDate": "2003-01-01",
+      "endDate": "2009-01-01",
+      "score": "4.0",
+      "courses": ["DB1101 - Basic SQL"]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }
+  ],
+  "skills": [
+    {},
+    {
+      "name": "HTML5",
+      "logo": "https://res.cloudinary.com/juanjportfolio/image/upload/v1707347296/Assets/html5_pm2ukg.svg",
+      "color": "227,79,38"
+    },
+    {
+      "name": "CSS3",
+      "logo": "https://res.cloudinary.com/juanjportfolio/image/upload/v1707347295/Assets/css_vmdclt.svg",
+      "color": "21,114,182"
+    },
+    {
+      "name": "Tailwind",
+      "logo": "https://res.cloudinary.com/juanjportfolio/image/upload/v1707347296/Assets/tailwindcss_kxpcgn.svg",
+      "color": "56,189,248"
+    },
+    {
+      "name": "JavaScript",
+      "logo": "https://res.cloudinary.com/juanjportfolio/image/upload/v1707347295/Assets/javascript_ao5e9q.svg",
+      "color": "240,219,79"
+    },
+    {
+      "name": "TypeScript",
+      "logo": "https://res.cloudinary.com/juanjportfolio/image/upload/v1707347295/Assets/typescript_xfc5bs.svg",
+      "color": "49,120,198"
+    },
+    {
+      "name": "Python",
+      "logo": "https://res.cloudinary.com/juanjportfolio/image/upload/v1707347296/Assets/python_hvfzub.svg",
+      "color": "55,118,171"
+    },
+    {
+      "name": "Node",
+      "logo": "https://res.cloudinary.com/juanjportfolio/image/upload/v1707347294/Assets/nodejs_abyqav.svg",
+      "color": "51,153,51"
+    },
+    {
+      "name": "Express",
+      "logo": "https://res.cloudinary.com/juanjportfolio/image/upload/v1707357057/Assets/expressjs_dark_j14wke.svg",
+      "color": "248,248,248"
+    },
+    {
+      "name": "Sequelize",
+      "logo": "https://res.cloudinary.com/juanjportfolio/image/upload/v1707447302/Assets/sequelize_v0kqzb.svg",
+      "color": "60,117,194"
+    },
+    {
+      "name": "MySQL",
+      "logo": "https://res.cloudinary.com/juanjportfolio/image/upload/v1707347293/Assets/mysql_frj8pb.svg",
+      "color": "68,121,161"
+    },
+    {
+      "name": "PostgreSQL",
+      "logo": "https://res.cloudinary.com/juanjportfolio/image/upload/v1707347293/Assets/postgresql_dspu29.svg",
+      "color": "49,100,140"
+    },
+    {
+      "name": "MongoDB",
+      "logo": "https://res.cloudinary.com/juanjportfolio/image/upload/v1707347293/Assets/mongodb_tgqswc.svg",
+      "color": "71,162,72"
+    },
+    {
+      "name": "Git",
+      "logo": "https://res.cloudinary.com/juanjportfolio/image/upload/v1707347293/Assets/git_ew5lvg.svg",
+      "color": "240,80,50"
+    },
+    {
+      "name": "GitHub",
+      "logo": "https://res.cloudinary.com/juanjportfolio/image/upload/v1707347298/Assets/github_efbvh7.svg",
+      "color": "24,23,23"
+    },
+    {
+      "name": "GitLab",
+      "logo": "https://res.cloudinary.com/juanjportfolio/image/upload/v1707347604/Assets/gitlab_kemdgl.svg",
+      "color": "226,67,41"
+    },
+    {
+      "name": "Next.js",
+      "logo": "https://res.cloudinary.com/juanjportfolio/image/upload/v1707347298/Assets/nextjs_gcqrih.svg",
+      "color": "37,37,37"
+    },
+    {
+      "name": "React.js",
+      "logo": "https://res.cloudinary.com/juanjportfolio/image/upload/v1707347298/Assets/react_ivwxfq.svg",
+      "color": "97,218,251"
+    },
+    {
+      "name": "Redux.js",
+      "logo": "https://res.cloudinary.com/juanjportfolio/image/upload/v1707347297/Assets/redux_fhw8a3.svg",
+      "color": "118,74,188"
+    },
+    {
+      "name": "Zustand",
+      "logo": "https://res.cloudinary.com/juanjportfolio/image/upload/v1709007566/Assets/favicon_xsqt1p.png",
+      "color": "170,93,57"
+    },
+    {
+      "name": "Astro",
+      "logo": "https://res.cloudinary.com/juanjportfolio/image/upload/v1707347297/Assets/astro_txgkjs.svg",
+      "color": "255,93,1"
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Portfolio",
+      "isActive": true,
+      "description": "Mi portfolio personal. Conocimientos, experiencias y proyectos. (Version 1.24.1)",
+      "technologies": [
+        {
+          "name": "TypeScript",
+          "logo": "https://res.cloudinary.com/juanjportfolio/image/upload/v1707347295/Assets/typescript_xfc5bs.svg",
+          "color": "49,120,198"
+        },
+        {
+          "name": "Astro",
+          "logo": "https://res.cloudinary.com/juanjportfolio/image/upload/v1707347297/Assets/astro_txgkjs.svg",
+          "color": "255,93,1"
+        },
+
+        {
+          "name": "React.js",
+          "logo": "https://res.cloudinary.com/juanjportfolio/image/upload/v1707347298/Assets/react_ivwxfq.svg",
+          "color": "97,218,251"
+        },
+        {
+          "name": "Tailwind",
+          "logo": "https://res.cloudinary.com/juanjportfolio/image/upload/v1707347296/Assets/tailwindcss_kxpcgn.svg",
+          "color": "56,189,248"
+        },
+        {
+          "name": "Node",
+          "logo": "https://res.cloudinary.com/juanjportfolio/image/upload/v1707347294/Assets/nodejs_abyqav.svg",
+          "color": "51,153,51"
+        }
+      ],
+      "url": "https://www.juangarcia-dev.com/",
+      "github": "https://github.com/JJGarciaMartinez/Portfolio_current",
+      "image": "https://res.cloudinary.com/juanjportfolio/image/upload/v1709763881/ScreenShots/147shots_so_pbzqbb.webp"
+    },
+    {
+      "name": "Kimey Petshop",
+      "isActive": true,
+      "description": "Ecommerce de mascotas en linea, pensada para comprar alimento, accesorios y cuidado de la mascota",
+      "technologies": [
+        {
+          "name": "Next.js",
+          "logo": "https://res.cloudinary.com/juanjportfolio/image/upload/v1707347298/Assets/nextjs_gcqrih.svg",
+          "color": "37,37,37"
+        },
+        {
+          "name": "MongoDB",
+          "logo": "https://res.cloudinary.com/juanjportfolio/image/upload/v1707347293/Assets/mongodb_tgqswc.svg",
+          "color": "71,162,72"
+        },
+        {
+          "name": "Zustand",
+          "logo": "https://res.cloudinary.com/juanjportfolio/image/upload/v1709007566/Assets/favicon_xsqt1p.png",
+          "color": "170,93,57"
+        },
+        {
+          "name": "Cloudinary",
+          "logo": "https://res.cloudinary.com/juanjportfolio/image/upload/v1707182622/samples/cloudinary-icon.png",
+          "color": "52,72,197"
+        },
+        {
+          "name": "Tailwind",
+          "logo": "https://res.cloudinary.com/juanjportfolio/image/upload/v1707347296/Assets/tailwindcss_kxpcgn.svg",
+          "color": "56,189,248"
+        },
+        {
+          "name": "Material UI",
+          "logo": "https://res.cloudinary.com/juanjportfolio/image/upload/v1707362632/Assets/materialui_l2vvj2.svg",
+          "color": "87,87,87"
+        },
+        {
+          "name": "Node",
+          "logo": "https://res.cloudinary.com/juanjportfolio/image/upload/v1707347294/Assets/nodejs_abyqav.svg",
+          "color": "51,153,51"
+        }
+      ],
+      "url": "https://pet-shop-peach.vercel.app/",
+      "github": "https://github.com/PF-Henrry/petShop",
+      "image": "https://res.cloudinary.com/juanjportfolio/image/upload/v1709763881/ScreenShots/891shots_so_t69zml.webp"
+    },
+    {
+      "name": "Proyecto Individual - Dogs",
+      "isActive": true,
+      "description": "Proyecto individual para el bootcamp de Soy Henry, hecho con React.js para el frontend y PostgreSQL para la base de datos",
+      "technologies": [
+        {
+          "name": "React.js",
+          "logo": "https://res.cloudinary.com/juanjportfolio/image/upload/v1707347298/Assets/react_ivwxfq.svg",
+          "color": "97,218,251"
+        },
+        {
+          "name": "CSS3",
+          "logo": "https://res.cloudinary.com/juanjportfolio/image/upload/v1707347295/Assets/css_vmdclt.svg",
+          "color": "21,114,182"
+        },
+        {
+          "name": "PostgreSQL",
+          "logo": "https://res.cloudinary.com/juanjportfolio/image/upload/v1707347293/Assets/postgresql_dspu29.svg",
+          "color": "49,100,140"
+        },
+        {
+          "name": "Node",
+          "logo": "https://res.cloudinary.com/juanjportfolio/image/upload/v1707347294/Assets/nodejs_abyqav.svg",
+          "color": "51,153,51"
+        },
+        {
+          "name": "Express",
+          "logo": "https://res.cloudinary.com/juanjportfolio/image/upload/v1707357057/Assets/expressjs_dark_j14wke.svg",
+          "color": "248,248,248"
+        },
+        {
+          "name": "Sequelize",
+          "logo": "https://res.cloudinary.com/juanjportfolio/image/upload/v1707447302/Assets/sequelize_v0kqzb.svg",
+          "color": "60,117,194"
+        },
+        {
+          "name": "Redux.js",
+          "logo": "https://res.cloudinary.com/juanjportfolio/image/upload/v1707347297/Assets/redux_fhw8a3.svg",
+          "color": "118,74,188"
+        }
+      ],
+      "url": "https://pi-dogs-sable.vercel.app/",
+      "github": "https://github.com/JJGarciaMartinez/PI-Dogs",
+      "image": "https://res.cloudinary.com/juanjportfolio/image/upload/v1709763881/ScreenShots/143shots_so_ubgwzy.webp"
+    },
+    {
+      "name": "JavaFX ATM",
+      "isActive": false,
+      "description": "Pequeño proyecto de JavaFX hecho para mi universidad para simular un cajero automático",
+
+      "technologies": [
+        {
+          "name": "JavaFX",
+          "logo": "https://res.cloudinary.com/juanjportfolio/image/upload/v1707421115/Assets/java_gcd485.svg",
+          "color": "255,99,71"
+        },
+        {
+          "name": "XML",
+          "logo": "https://res.cloudinary.com/juanjportfolio/image/upload/v1707421286/Assets/xml-document-svgrepo-com_kqhics.svg",
+          "color": "226,67,41"
+        },
+        {
+          "name": "Scene Builder",
+          "logo": "https://res.cloudinary.com/juanjportfolio/image/upload/v1707421618/Assets/SceneBuilderLogo_ydnd8b.png",
+          "color": "250,154,0"
+        },
+        {
+          "name": "IntelliJ IDEA",
+          "logo": "https://res.cloudinary.com/juanjportfolio/image/upload/v1707421762/Assets/intellijidea_voigke.svg",
+          "color": "39,40,45"
+        }
+      ],
+      "github": "https://github.com/JJGarciaMartinez/JavaFX-ATM",
+      "image": "https://res.cloudinary.com/juanjportfolio/image/upload/v1709763881/ScreenShots/581shots_so_xo6ii4.webp"
+    },
+    {
+      "name": "Porftolio V1",
+      "isActive": false,
+      "description": "Primer portfolio desarrollado con tecnologías vanilla.",
+
+      "technologies": [
+        {
+          "name": "HTML5",
+          "logo": "https://res.cloudinary.com/juanjportfolio/image/upload/v1707347296/Assets/html5_pm2ukg.svg",
+          "color": "227,79,38"
+        },
+        {
+          "name": "CSS3",
+          "logo": "https://res.cloudinary.com/juanjportfolio/image/upload/v1707347295/Assets/css_vmdclt.svg",
+          "color": "21,114,182"
+        },
+        {
+          "name": "JavaScript",
+          "logo": "https://res.cloudinary.com/juanjportfolio/image/upload/v1707347295/Assets/javascript_ao5e9q.svg",
+          "color": "240,219,79"
+        },
+        {
+          "name": "PHP",
+          "logo": "https://res.cloudinary.com/juanjportfolio/image/upload/v1709106185/Assets/php_dark_ye02ex.svg",
+          "color": "71,74,138"
+        }
+      ],
+      "url": "https://portfolio-v1-lyart-eight.vercel.app/",
+      "github": "https://github.com/JJGarciaMartinez/Portfolio_v1",
+      "image": "https://res.cloudinary.com/juanjportfolio/image/upload/v1709763881/ScreenShots/855shots_so_nmcm4d.webp"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "extends": "astro/tsconfigs/strict",
+  "compilerOptions": {
+    "baseUrl": "C:/Users/Juan5/Documents/SoyHenry/BootCamp/Proyectos/Portafolio_Simple",
+    "paths": {
+      "@cv": ["./cv.json"],
+      "@/*": ["src/*"]
+    },
+    "jsx": "react-jsx",
+    "jsxImportSource": "react"
+  }
+}
